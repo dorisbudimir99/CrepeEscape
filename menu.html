@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crepe Escape Menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+
+        <body>
+            <main>
+                <h1>Crepe Escape</h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home Page</a></li>
+                        <li><a href="menu.html">Menu and Prices</a></li>
+                        <li><a href="menu.html#contact">Contact Us</a></li>
+                    </ul>
+                </nav> 
+                
+
+                <h2>Menu</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dish</th>
+                            <th>Description</th>
+                            <th></th>
+                            <th>Price</th>
+                        </tr>    
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Fruit Crepe</td>
+                            <td>Mixed Berries, Vanilla Custard, Raspberry Jam</td>
+                            <td><img src="images/Crepes-with-berries.jpg" alt="crepes with mixed berries" width="100"></td>
+                            <td>$9.50</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Chocolate Crepe</td>
+                            <td>Nutella, Banana, Raspberry, Chocolate syrup, Whipped cream</td>
+                            <td><img src="images/553308b.jpg" alt="Chocolate crepe with choclate sauce, whipped cream and berries on top" width="100"></td>
+                            <td>$10</td>
+                        </tr>
+
+                        <tr>
+                            <td>Savoury Crepe</td>
+                            <td>Eggs, Bacon or Sausage, cheese, mushrooms, Spinach, chimichurri</td>
+                            <td><img src="images/savory-crepes-1.jpg" alt="savory crepe with vegetables and chimichurri sauce on top" width="100"></td>
+                            <td>$13</td>
+                        </tr>   
+
+                    </tbody>
+                </table>
+
+                                    <section class="image-menu" aria-label="Featured Crepes">
+                    <h2>Featured Crepes</h2>
+                    <ul>
+                        <li class="image-card Pumpkin-Crepes"
+                            style="background-image: url('images/pumpkin-crepes.jpg');">
+                        <div class="overlay">
+                            <h3>Pumpkin Spice</h3>
+                            <p>Pumpkin spice cream filling, Cinnamon sugar syrup, Crushed walnuts • $11</p>
+                        </div>
+                        </li>
+
+                        <li class="image-card Apple-Dessert-Crepe"
+                            style="background-image: url('images/apple-dessert-crepe.jpg');">
+                        <div class="overlay">
+                            <h3>Apple Cinnamon Crumble</h3>
+                            <p>Warm apples, cinnamon, caramel drizzle, Vanilla ice cream, Crushed walnuts • $10.50</p>
+                        </div>
+                        </li>
+
+                        <li class="image-card Pistachio-Crepe-2"
+                            style="background-image: url('images/pistachio-crepe-2.jpg');">
+                        <div class="overlay">
+                            <h3>Pistachio Delight</h3>
+                            <p>Pistachio cream, Chocolate Drizzle, pistachio ice cream, crushed pistachios • $12</p>
+                        </div>
+                        </li>
+                    </ul>
+                    </section>
+
+
+                <section>
+                    <h2 id="contact">Contact Us</h2>
+                    <form class="form">
+                        <label>Name
+                            <input type="text" name="name" required />
+                        </label>
+
+                        <label>Email
+                            <input type="email" name="email" required />
+                        </label>
+
+                        <label>Message
+                            <textarea name="message" rows="5" required></textarea>
+                        </label>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+            </main>    
+
+            <footer>
+                <p>©2025 Registered trademark of Crepe Escape inc.<a href="home.html">Back to Home Page</a></p>
+            </footer>
+
+
+        </body>
+</html>
